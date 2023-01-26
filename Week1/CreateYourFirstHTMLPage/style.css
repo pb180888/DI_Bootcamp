@@ -1,0 +1,11 @@
+.yellow {
+    background-color: yellow;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+.center {
+    text-align: center;
+}
