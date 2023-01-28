@@ -12,5 +12,5 @@ let revenuePastMonth = Number(prompt("Enter your revenue"));
 let expensesPastMonth = Number(prompt("Enter your expenses"));
 
 vat = expensesPastMonth * 0.18;
-amountMoney = expensesPastMonth - revenuePastMonth - vat;
+amountMoney = revenuePastMonth - expensesPastMonth - vat;
 console.log(amountMoney);
